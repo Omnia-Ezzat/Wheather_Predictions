@@ -1,0 +1,30 @@
+17-10-2024 12:20:29.20 - INFO - Started validation of input parameters...
+17-10-2024 12:20:29.20 - INFO - Completed validation of input parameters
+17-10-2024 12:20:29.20 - INFO - Started handling of duplicates... Method: "AUTO"
+17-10-2024 12:20:29.20 - DEBUG - Deletion of 107 duplicate(s) succeeded
+17-10-2024 12:20:29.20 - INFO - Completed handling of duplicates in 0.001592 seconds
+17-10-2024 12:20:29.20 - INFO - Started handling of missing values...
+17-10-2024 12:20:29.20 - INFO - Found a total of 689 missing value(s)
+17-10-2024 12:20:29.20 - INFO - Started handling of NUMERICAL missing values... Method: "KNN"
+17-10-2024 12:20:29.20 - DEBUG - KNN imputation of 106 value(s) succeeded for feature "Age"
+17-10-2024 12:20:29.20 - INFO - Started handling of CATEGORICAL missing values... Method: "KNN"
+17-10-2024 12:20:29.22 - DEBUG - KNN imputation of 581 value(s) succeeded for feature "Cabin"
+17-10-2024 12:20:29.22 - DEBUG - KNN imputation of 2 value(s) succeeded for feature "Embarked"
+17-10-2024 12:20:29.22 - INFO - Completed handling of missing values in 0.02862 seconds
+17-10-2024 12:20:29.22 - INFO - Started handling of outliers... Method: "WINZ"
+17-10-2024 12:20:29.25 - DEBUG - Outlier imputation of 39 value(s) succeeded for feature "Age"
+17-10-2024 12:20:29.26 - DEBUG - Outlier imputation of 39 value(s) succeeded for feature "SibSp"
+17-10-2024 12:20:29.28 - DEBUG - Outlier imputation of 15 value(s) succeeded for feature "Parch"
+17-10-2024 12:20:29.31 - DEBUG - Outlier imputation of 102 value(s) succeeded for feature "Fare"
+17-10-2024 12:20:29.31 - INFO - Completed handling of outliers in 0.097862 seconds
+17-10-2024 12:20:29.31 - INFO - Skipped datetime feature conversion
+17-10-2024 12:20:29.31 - INFO - Skipped encoding of categorical features
+17-10-2024 12:20:29.31 - INFO - Started feature type conversion...
+17-10-2024 12:20:29.31 - DEBUG - Conversion to type INT succeeded for feature "Survived"
+17-10-2024 12:20:29.31 - DEBUG - Conversion to type INT succeeded for feature "Pclass"
+17-10-2024 12:20:29.31 - DEBUG - Conversion to type FLOAT succeeded for feature "Age"
+17-10-2024 12:20:29.31 - DEBUG - Conversion to type INT succeeded for feature "SibSp"
+17-10-2024 12:20:29.31 - DEBUG - Conversion to type INT succeeded for feature "Parch"
+17-10-2024 12:20:29.33 - DEBUG - Conversion to type FLOAT succeeded for feature "Fare"
+17-10-2024 12:20:29.33 - INFO - Completed feature type conversion for 6 feature(s) in 0.004947 seconds
+17-10-2024 12:20:29.33 - INFO - AutoClean process completed in 0.13678 seconds
